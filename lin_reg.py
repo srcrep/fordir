@@ -169,12 +169,12 @@ for j in range(len(datelist)-train_range):
     '''
 
 
-# train_ac = df(train_ac)
-# test_ac = df(test_ac)
-# savepath = Path(os.getcwd())/"PreData/LinearRegress/" / "{}d-train_acc.csv".format(train_range)
-# train_ac.to_csv(savepath)
-# savepath = Path(os.getcwd())/"PreData/LinearRegress/" / "{}d-test_acc.csv".format(train_range)
-# test_ac.to_csv(savepath)
+train_ac = df(train_ac)
+test_ac = df(test_ac)
+savepath = Path(os.getcwd())/"PreData/LinearRegress/" / "{}d-train_acc.csv".format(train_range)
+train_ac.to_csv(savepath)
+savepath = Path(os.getcwd())/"PreData/LinearRegress/" / "{}d-test_acc.csv".format(train_range)
+test_ac.to_csv(savepath)
 
 
 
